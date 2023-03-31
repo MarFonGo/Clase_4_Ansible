@@ -1,0 +1,10 @@
+---
+- name: Clonar repositorio de GitHub
+  hosts: marlon
+  become: yes
+  tasks:
+  - name: clonar repositorio de Github    
+    git:
+      repo: https://github.com/MarFonGo/Clase_3_Python.git
+      dest: Documents/GitHub_clon_repository
+

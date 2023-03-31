@@ -1,0 +1,2 @@
+[marlon] 
+192.168.114.128 ansible_user=marlon ansible_ssh_pass=marlonfg55 ansible_become=true ansible_become_method=sudo
